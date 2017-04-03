@@ -13,15 +13,16 @@
 		line-height: 1.3em;
 	}
 	.card-home-text {
-	  max-width:800px;
-	  min-width:400px;
+	width:600px;
+	max-width:800px;
+	min-width:400px;
 	}
 
 	.facebook img {
-		width: 80vw;
+		width: 74vw;
 	}
 	.crew video{
-		width: 80vw;
+		width: 74vw;
 	}
 
 	.card-work {
@@ -84,12 +85,14 @@
 
 	.card {
 		flex-direction: column;
+		height: 50vh;
 	}
 	.card-home-text{
 		order:2;
   		margin-left:6%;
   		margin-right:6%;
-  		min-width: 300px;
+  		min-width: 0px;
+  		width: 90%;
 	}
 	.card-home-image{
 		order:1;
@@ -107,13 +110,22 @@
 
 	}
 
+	.card-home-image{
+		width: 90vw;
+	}
+
 	.card-work {
 	  height:80vh;
 	}
+
+	.card-home-image-right img{
+	  width:60vw;
+	  margin-left: 32px;
+
+	}
 	/*individual controls*/
 	.facebook img {
-		width: 88%;
-		margin-left: 6%;
+		width:90vw;
 	}
 
 	.gmail video{
@@ -123,6 +135,7 @@
 		margin-left: .42vw;
 		border-radius: 1px;
 	}
+
 
 	.crew video{
 		width: 90vw;
@@ -135,6 +148,7 @@
 	    margin-left: 0.56vw;
 	    border-radius:1px;
 	}
+
 
 	/*footer*/
 	input, textarea {

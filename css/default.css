@@ -176,7 +176,7 @@ button:focus {
   flex-direction:row;
   flex-wrap:nowrap;
   justify-content:center;
-  height:90vh;
+  height:100vh;
   align-items:center;
   overflow:hidden;
 }
@@ -189,8 +189,7 @@ button:focus {
   order: 1;
   margin-left:10%;
   margin-right:5%;
-  max-width:450px;
-  min-width:400px;
+  width:425px;
 
 }
 
@@ -200,19 +199,25 @@ button:focus {
   min-width:50vw;
   display: flex;
   align-items: flex-end;
+
 }
 
 .card-home-image-left{
   order: 1;
   margin-right: -90px;
   z-index: 10;
+  filter: drop-shadow(0px 1px 2px rgba(0,0,0,0.1));
+  /*background-color: yellow;*/
 }
 .card-home-image-left img{
   width: 15vw;
+  
 }
 
 .card-home-image-right{
   order: 2;
+  filter: drop-shadow(0px 1px 1px rgba(0,0,0,0.1));
+  /*background-color: orange;*/
 }
 
 .card-home-image-right img{
@@ -221,7 +226,8 @@ button:focus {
 
 /*controls to individually control position of each video*/
 .facebook img {
-  width:65vw;
+  width:69vw;
+  min-width: 100%
 }
 
 .gmail video{
