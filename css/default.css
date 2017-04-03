@@ -74,6 +74,7 @@ a:hover {
     font-size:18px;
     overflow:hidden;
     font-weight:600;
+    z-index: 1000;
     /*background-color:#fff;*/
     
   }
