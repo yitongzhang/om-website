@@ -1,61 +1,68 @@
 <?php
-if(!isset($_POST['submit']))
-{
-	//This page should not be accessed directly. Need to submit the form.
-	echo "error; you need to submit the form!";
+
+$debug = false;
+
+// Edit these as needed.
+
+$to = 'rob@youngand.co';
+$from = 'yitong@youngand.co';
+$subject = 'New Form submission';
+
+$debugTo = 'jason@youngand.co';
+
+// End editables.
+
+
+
+if (!isset($_POST['submit'])) {
+    echo "error; you need to submit the form!";
+    exit;
 }
+
+function isInjected($str) {
+
+    $injections = array('(\n+)',
+        '(\r+)',
+        '(\t+)',
+        '(%0A+)',
+        '(%0D+)',
+        '(%08+)',
+        '(%09+)'
+    );
+
+    $inject = join('|', $injections);
+    $inject = "/$inject/i";
+    return preg_match($inject, $str);
+}
+
 $name = $_POST['Name'];
-$visitor_email = $_POST['Email'];
+$visitorEmail = $_POST['Email'];
 $message = $_POST['Description'];
 
-//Validate first
-if(empty($name)||empty($visitor_email)) 
-{
+if (empty($name) || empty($visitorEmail)) {
     echo "Name and email are mandatory!";
     exit;
 }
 
-if(IsInjected($visitor_email))
-{
+if (isInjected($visitorEmail)) {
     echo "Bad email value!";
     exit;
 }
 
-$email_from = 'yitong@youngand.co';//<== update the email address
-$email_subject = "New Form submission";
-$email_body = "You have received a new message from the user $name.\n".
-    "Here is the message:\n $message".
-    
-$to = "yitong@youngand.co";//<== update the email address
-$headers = "From: $email_from \r\n";
-$headers .= "Reply-To: $visitor_email \r\n";
-//Send the email!
-mail($to,$email_subject,$email_body,$headers);
-//done. redirect to thank-you page.
-header('Location: thank-you.html');
+$body = "You have received a new message from the user $name.\n" .
+    "Here is the message:\n $message";
 
+$headers = "From: $from \r\n";
+$headers .= "Reply-To: $visitorEmail \r\n";
 
-// Function to validate against any email injection attempts
-function IsInjected($str)
-{
-  $injections = array('(\n+)',
-              '(\r+)',
-              '(\t+)',
-              '(%0A+)',
-              '(%0D+)',
-              '(%08+)',
-              '(%09+)'
-              );
-  $inject = join('|', $injections);
-  $inject = "/$inject/i";
-  if(preg_match($inject,$str))
-    {
-    return true;
-  }
-  else
-    {
-    return false;
-  }
-}
-   
-?> 
+$debug && $to = $debugTo;
+
+$mailOk = mail($to, $subject, $body, $headers);
+
+$response = [
+    'success' => $mailOk
+];
+
+echo json_encode($response);
+
+exit;
