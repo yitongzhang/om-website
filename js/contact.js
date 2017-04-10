@@ -119,7 +119,8 @@ $(function () {
 
                                 clearFields();
 
-                                submitSuccessDismiss.on('click', function () {
+                                submitSuccessDismiss.on('click', function (e) {
+                                    e.preventDefault();
                                     contactForm.css('display', 'block');
                                     submitSuccess.css('display', 'none');
                                 });
