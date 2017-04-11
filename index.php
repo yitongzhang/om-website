@@ -16,10 +16,8 @@
 <body>
 
 <div class="top-bar"></div>
-<nav>
-	<div class="logo"><span class="selected">O/M</span></div>
-	<div class="subnav"><a href="studio.html">Studio</a>  &nbsp; &nbsp; &nbsp; <a href="contact.html">Contact</a></div>
-</nav>
+
+<?php include 'nav.php'; ?>
 
 <!-- top -->
 
@@ -102,32 +100,7 @@
 <footer>
     <div class="footer-left">
 
-        <div class="submit-success">
-            <a href class="submit-success-dismiss">Dismiss</a>
-            <div class="submit-success-msg">Thank You For Your Submission!!!11</div>
-        </div>
-
-        <form id="contactForm" class="contact-form">
-
-            <h2>How can we help you?</h2>
-
-            <input type="text" name="Name" id="Name" placeholder="Your name" class="form-control">
-            <input type="email" name="Email" id="Email" placeholder="Email address" class="form-control">
-            <input type="text" name="Company" id="Company" placeholder="Company" class="form-control">
-            <input type="hidden" name="_next" value="thanks.html">
-
-            <textarea maxlength="150" name="Description" id="Description" placeholder="Tell us about your project"
-                      cols="30" rows="1" class="form-control"></textarea>
-
-            <div class="form-group submit">
-                <input type="hidden" name="submit" value="1">
-                <button type="submit" class="sbtn" name="submit" value="1" data-content="Submit" value="Send Form">
-                    <span data-content="Send">Send</span>
-                </button>
-            </div>
-
-            <div class="form-error-message"></div>
-        </form>
+        <?php include 'contact-form.php'; ?>
 
     </div>
 </footer>

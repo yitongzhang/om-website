@@ -15,10 +15,8 @@
 <body>
 
 <div class="top-bar"></div>
-<nav>
-	<div class="logo"><a href="index.html">O/M</a></div>
-	<div class="subnav"><Span class="selected">Studio</span>  &nbsp; &nbsp; &nbsp; <a href="contact.html">Contact</a></div>
-</nav>
+
+<?php include 'nav.php'; ?>
 
 <!-- top -->
 
@@ -238,22 +236,7 @@
 <a name="contact"></a>	
 <footer name="contact">
 <div class="footer-left">
-	<form action="https://formspree.io/yitong@youngand.co" name="contactForm" id="contactForm" method="POST" onsubmit="return validateForm();">
-		<h2>How can we help you?</h2>
-			<input type="text" name="Name" id="Name" placeholder="Your name" class="form-control required">
-			<input type="email" name="Email" id="Email" placeholder="Email address" class="form-control required">
-			<input type="text" name="Company" id="Company" placeholder="Company" class="form-control required">
-			<textarea maxlength="150" class="form-control required" name="Description" placeholder="Project description" id="" cols="30" rows="1"></textarea>
-			<div class="form-group submit">
-				<input type="hidden" name="submit" value="1">
-				<button type="submit" class="sbtn" name="submit" value="1" data-content="Submit">
-					<span data-content="Submit">Submit</span>
-				</button>
-			</div>
-
-		<div class="form-error-message">
-		</div>
-	</form>
+    <?php include 'contact-form.php'; ?>
 </div>
 <!-- <div class="footer-right">
 	<p><strong>O/M Studio</strong></p>
@@ -284,5 +267,6 @@
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="js/main.js"></script>
+<script src="js/contact.js"></script>
 </body>
 </html>

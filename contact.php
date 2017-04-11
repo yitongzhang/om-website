@@ -1,60 +1,44 @@
-<?php 
-header('Access-Control-Allow-Origin: *');
-header('Access-Control-Allow-Methods: GET, POST');  
-header('Content-Type: application/json');
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>O/M: A product design studio in San Francisco</title>
+	<link rel="icon" type="image/png" href="img/favicon.png">
+	<meta name="description" content="O/M: A product design studio in San Francisco" />
+	<meta name="keywords"  content="O/M, product design, user experience design, user interface design, ui design, design, mobile design, software, software development, website design, app design" />
+	<meta name="Resource-type" content="Document" />
+	<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="css/default.css" />
+	<link rel="stylesheet" type="text/css" href="css/default-mobile-yz.css" />
+	<link rel="stylesheet" type="text/css" href="css/type.css" />	
+</head>
+<body>
 
-// Debugging functions
-function d($a = null){
-    dd($a);
-    die;
-}
-function dd($a = null){
-    echo '<pre>';
-    var_dump($a);
-    echo '</pre>';
-}
+<div class="top-bar"></div>
 
-require_once 'vendor/autoload.php';
+<?php include 'nav.php'; ?>
 
-$from      = new SendGrid\Email(null, "inquiries@youngand.co");
-$subject   = "Contact details";
-$to        = new SendGrid\Email(null, "inquiries@youngand.co");
-$data      = $_POST;
+<a name="contact"></a>
+<footer>
+<div class="footer-left">
 
-if ( isset($data['submit']) ) {
-    if ( !isset($data['Email']) || !isset($data['Name']) || !isset($data['Company'])|| !isset($data['Description']) ) {
-        $response['message'] = 'Please fill required fields';
-    }
+    <?php include 'contact-form.php'; ?>
 
-    ob_start();
-    include 'email.tpl';
-    $message = ob_get_contents();
-    ob_clean();
-
-    $content = new SendGrid\Content("text/html", $message);
-	$mail = new SendGrid\Mail($from, $subject, $to, $content);
+</div>
+</footer>
 
 
 
-	$apiKey = getenv('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');
-	$sg = new SendGrid("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");
-
-	$result = $sg->client->mail()->send()->post($mail);
-	$response['statusCode'] = $result->statusCode();
-	$response['header'] = $result->headers();
-	$response['message'] = $result->body();
-
-	if ( $result->statusCode() >= 200 && $result->statusCode() < 300 ){
-		$response['message'] = 'Email was successfully submitted';
-        $response['success'] = true;
-	} else {
-		$response['message'] = $result->body();
-        $response['success'] = false;
-	}
-} else {
-    $response['message'] = 'You should submit form';
-    $response['success'] = false;
-}
-
-
-die(  json_encode($response) );
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-52539801-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/contact.js"></script>
+</body>
+</html>
