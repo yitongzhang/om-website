@@ -6,8 +6,6 @@ $debug = false;
 
 $to = 'rob@youngand.co';
 $from = 'yitong@youngand.co';
-$subject = 'New Form submission';
-
 $debugTo = 'jason@youngand.co';
 
 // End editables.
@@ -36,6 +34,7 @@ function isInjected($str) {
 }
 
 $name = $_POST['Name'];
+$company = $_POST['Company'];
 $visitorEmail = $_POST['Email'];
 $message = $_POST['Description'];
 
@@ -48,6 +47,8 @@ if (isInjected($visitorEmail)) {
     echo "Bad email value!";
     exit;
 }
+
+$subject = "O/M + $company";
 
 $body = "You have received a new message from the user $name.\n" .
     "Here is the message:\n $message";
