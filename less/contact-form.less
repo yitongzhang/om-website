@@ -1,0 +1,40 @@
+@import "variables";
+
+.contact-form {
+
+  .form-control.error {
+
+    border-color: @color-red;
+    color: @color-red;
+
+    &::-webkit-input-placeholder {
+      color: @color-red;
+    }
+
+    &:-moz-placeholder {
+      /* Firefox 18- */
+      color: @color-red;
+    }
+
+    &::-moz-placeholder {
+      // Non-deprecated version for -moz
+      color: @color-red;
+    }
+  }
+
+  .form-error-message {
+    color: @color-red;
+  }
+}
+
+.submit-success {
+
+  display: none;
+
+  .submit-success-msg {
+    margin: 12px 0;
+  }
+  .submit-success-dismiss {
+
+  }
+}

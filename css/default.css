@@ -1,3 +1,23 @@
+@font-face {
+  font-family: Source;
+  font-weight: 400;
+  src: url(../fonts/SourceSerifProregular.ttf) format("truetype");
+}
+@font-face {
+  font-family: Source;
+  font-weight: 700;
+  src: url(../fonts/SourceSerifPro700.ttf) format("truetype");
+}
+@font-face {
+  font-family: Gilroy;
+  font-weight: 400;
+  src: url(../fonts/gilroy-regular.otf) format("opentype");
+}
+@font-face {
+  font-family: Gilroy;
+  font-weight: 700;
+  src: url(../fonts/gilroy-bold.otf) format("opentype");
+}
 body {
   font-family: 'Gilroy', serif;
   font-size: 18px;
@@ -5,39 +25,22 @@ body {
   color: #333;
   margin: 0;
 }
-p {
-  margin: 24px 0;
-  font-family: 'Source';
-  font-style: normal;
+h1,
+h2,
+h3 {
+  font-family: 'Gilroy', serif;
+  font-weight: 700;
+}
+h3 {
+  text-transform: uppercase;
 }
 strong {
   font-weight: bold;
 }
-h1 {
-  font-family: 'Gilroy';
-  font-size: 4.8em;
-  line-height: 1.2em;
-  font-weight: 700;
-  letter-spacing: -1px;
-  padding-top: 18px;
-  color: #333;
-  font-weight: bold;
-  /*font-family: sectra;*/
-}
-h2 {
-  font-size: 32px;
-  line-height: 38px;
-  font-weight: bold;
-  margin: 12px 0 24px;
-  padding-top: 12px;
-}
-h3 {
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: bold;
-  margin: 4px 0;
-  padding-top: 12px;
-  text-transform: uppercase;
+p {
+  margin: 24px 0;
+  font-family: 'Source', serif;
+  font-style: normal;
 }
 .title-top {
   width: 520px;
@@ -46,7 +49,6 @@ h3 {
 a {
   color: #FF313F;
   text-decoration: none;
-  /*font-family:'Gilroy';*/
 }
 a:hover {
   border-bottom: 2px #FF313F solid;
@@ -64,23 +66,21 @@ nav {
   overflow: hidden;
   font-weight: 600;
   z-index: 1000;
-  /*background-color:#fff;*/
 }
 .logo img {
   height: 32px;
 }
 .logo a:hover {
-  border-bottom: 4px solid #FF323F;
+  border-bottom: 4px solid #FF313F;
   font-weight: bold;
   padding-bottom: 2px;
 }
 nav .subnav a {
   color: #FF313F;
-  /*border-bottom:2px solid #FF313F;*/
 }
 nav .subnav a:hover {
   color: #FF313F;
-  border-bottom: 4px solid #FF323F;
+  border-bottom: 4px solid #FF313F;
   line-height: normal;
   padding-bottom: 2px;
 }
@@ -99,16 +99,15 @@ form {
 }
 input,
 textarea {
-  border: 0px;
   border-radius: 3px;
-  color: #000;
+  color: #333;
   padding: 18px;
   margin-bottom: 12px;
   display: block;
   width: 400px;
   border: 1px solid #eee;
   font-size: 16px;
-  font-family: 'Gilroy';
+  font-family: 'Gilroy', serif;
   letter-spacing: 1px;
 }
 textarea {
@@ -117,8 +116,7 @@ textarea {
 input:focus,
 textarea:focus {
   border-radius: 2px;
-  border: 0px;
-  color: #000;
+  color: #333;
   padding: 18px;
   margin-bottom: 12px;
   width: 400px;
@@ -126,20 +124,23 @@ textarea:focus {
   border: 1px solid #ddd;
 }
 button {
-  border: 0px;
+  border: 0;
   padding: 18px 32px;
   border-radius: 4px;
   font-weight: normal;
   font-size: 16px;
   color: white;
-  background-color: #FF323F;
+  background-color: #FF313F;
+}
+button:hover {
+  cursor: pointer;
 }
 button:focus {
   outline: none;
   color: #fff;
-  -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
 }
 .top-bar {
   height: 6px;
@@ -148,53 +149,9 @@ button:focus {
   z-index: 100;
   /*display:none;*/
 }
-.card {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  height: 100vh;
-  align-items: center;
-  overflow: hidden;
-}
-.card-work {
-  height: 120vh;
-}
-.card-home-text {
-  order: 1;
-  margin-left: 10%;
-  margin-right: 5%;
-  width: 425px;
-}
-.card-home-image {
-  order: 2;
-  margin-right: -5vw;
-  min-width: 50vw;
-  display: flex;
-  align-items: flex-end;
-}
-.card-home-image-left {
-  order: 1;
-  margin-right: -90px;
-  z-index: 10;
-  filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.1));
-  /*background-color: yellow;*/
-}
-.card-home-image-left img {
-  width: 15vw;
-}
-.card-home-image-right {
-  order: 2;
-  filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.1));
-  /*background-color: orange;*/
-}
-.card-home-image-right img {
-  width: 60vw;
-}
 /*controls to individually control position of each video*/
 .facebook img {
   width: 69vw;
-  min-width: 100%;
 }
 .gmail video {
   position: absolute;
@@ -212,6 +169,13 @@ button:focus {
   margin-top: 5.2vh;
   margin-left: 0.56vw;
   border-radius: 4px;
+}
+.card {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 /*studio*/
 .card-studio-col {
@@ -322,14 +286,14 @@ footer {
   margin: 10%;
 }
 .project-row {
-  font-family: 'source';
+  font-family: 'Source', serif;
   border-top: 1px solid #ddd;
 }
 .project-item {
   padding: 16px 0 16px 0;
 }
 .project-meta {
-  font-family: 'Gilroy';
+  font-family: 'Gilroy', serif;
   text-transform: uppercase;
   font-size: 14px;
 }
@@ -343,9 +307,9 @@ table {
   text-align: left;
 }
 table h3 {
-  font-family: 'Gilroy';
+  font-family: 'Gilroy', serif;
   font-weight: 600;
-  padding-top: 0px;
+  padding-top: 0;
   text-transform: none;
 }
 .right {
@@ -354,42 +318,9 @@ table h3 {
 td:nth-child(2) {
   font-size: 16px;
 }
-.thanks {
-  width: 100vw;
-  height: 90vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  font-weight: 600;
-}
-.thanks .subnav {
-  margin-top: 20px;
-}
 a img {
   margin-bottom: -1px;
 }
-.contact-form .form-control.error {
-  border-color: #DC4040;
-  color: #DC4040;
-}
-.contact-form .form-control.error::-webkit-input-placeholder {
-  color: #DC4040;
-}
-.contact-form .form-control.error:-moz-placeholder {
-  /* Firefox 18- */
-  color: #DC4040;
-}
-.contact-form .form-control.error::-moz-placeholder {
-  color: #DC4040;
-}
-.contact-form .form-error-message {
-  color: #DC4040;
-}
-.submit-success {
-  display: none;
-}
-.submit-success .submit-success-msg {
-  margin: 12px 0;
+.card-home-image-right {
+  filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.1));
 }
