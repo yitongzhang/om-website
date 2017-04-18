@@ -29,6 +29,7 @@
 		<p>Our process is highly collaborative and iterative. We blend research, user experience, interaction design, visual design, prototyping, coding, and whatever else it takes to make something great. </p>
 	</div>
 </div>
+
 <div class="values" style="background-color:#fff;">
 	<div class="card-studio-col">
 		<div class="divider"></div>
@@ -48,7 +49,7 @@
 		<div class="divider"></div>
 		<h3>Location</h3>
 		<p>O/M<br />3324 24th Street<br />
-			San Francisco, CA 94103<br /> 
+			San Francisco, CA 94103<br />
 			hello@omstudio.co</br/>
 			<a href="https://dribbble.com/omstudio" target="_blank"><img src="img/dribbble-icon.svg" style="width:12px;padding-top:4px;" /> omstudio</a>
 
@@ -99,7 +100,7 @@
 			<td class="project-item"><h3>Leap</h3></td>
 			<td class="proejct-item">Product Strategy • UX Design • Visual Design</td>
 			<td class="proejct-item project-meta right">Current</td>
-		</tr>			
+		</tr>
 		<tr class="project-row">
 			<td class="project-item"><h3>Include (Google)</h3></td>
 			<td class="proejct-item">Product Strategy • UX Design • Visual Design</td>
@@ -114,7 +115,7 @@
 			<td class="project-item"><h3>Youtube Catalog</h3></td>
 			<td class="proejct-item">Information Design</td>
 			<td class="proejct-item project-meta right">2017</td>
-		</tr>			
+		</tr>
 		<tr class="project-row">
 			<td class="project-item"><h3>R&D (Google)</h3></td>
 			<td class="proejct-item">UX Design • Visual Design • Prototyping • Development</td>
@@ -124,7 +125,7 @@
 			<td class="project-item"><h3>Facebook Dashboard</h3></td>
 			<td class="proejct-item">UX Design • Visual Design</td>
 			<td class="proejct-item project-meta right">2016</td>
-		</tr>					
+		</tr>
 		<tr class="project-row">
 			<td class="project-item"><h3>Verily (Google)</h3></td>
 			<td class="proejct-item">Graphic Design</td>
@@ -139,7 +140,7 @@
 			<td class="project-item"><h3>Google Insights</h3></td>
 			<td class="proejct-item">UX Design • Visual Design • Development</td>
 			<td class="proejct-item project-meta right">2016</td>
-		</tr>	
+		</tr>
 		<tr class="project-row">
 			<td class="project-item"><h3>Workflow Tool for Apple</h3></td>
 			<td class="proejct-item">UX Design</td>
@@ -164,17 +165,17 @@
 			<td class="project-item"><h3>Facebook Reach & Frequency</h3></td>
 			<td class="proejct-item">UX Design • Visual Design</td>
 			<td class="proejct-item project-meta right">2015</td>
-		</tr>	
+		</tr>
 		<tr class="project-row">
 			<td class="project-item"><h3>Whisperer (Google)</h3></td>
 			<td class="proejct-item">UX Design • Visual Design • Development</td>
 			<td class="proejct-item project-meta right">2015</td>
-		</tr>	
+		</tr>
 		<tr class="project-row">
 			<td class="project-item"><h3>Google Fiber</h3></td>
 			<td class="proejct-item">UX Design • Visual Design</td>
 			<td class="proejct-item project-meta right">2015</td>
-		</tr>			
+		</tr>
 		<tr class="project-row">
 			<td class="project-item"><h3>Asylum Arts</h3></td>
 			<td class="proejct-item">UX Design • Visual Design • Development</td>
@@ -209,22 +210,22 @@
 			<td class="project-item"><h3>SK Planet</h3></td>
 			<td class="proejct-item">UX Design • Visual Design</td>
 			<td class="proejct-item project-meta right">2013-2014</td>
-		</tr>		
+		</tr>
 		<tr class="project-row">
 			<td class="project-item"><h3>Origami Logic</h3></td>
 			<td class="proejct-item">UX Design • Visual Design</td>
 			<td class="proejct-item project-meta right">2013</td>
-		</tr>	
+		</tr>
 		<tr class="project-row">
 			<td class="project-item"><h3>Gmail</h3></td>
 			<td class="proejct-item">UX Design • Visual Design</td>
 			<td class="proejct-item project-meta right">2013</td>
-		</tr>						
+		</tr>
 	</table>
 </div> -->
 
 
-<a name="contact"></a>	
+<a name="contact"></a>
 <footer name="contact">
 <div class="footer-left">
     <?php include 'contact-form.php'; ?>
