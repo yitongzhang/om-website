@@ -1,4 +1,7 @@
 @media only screen and (max-width: 599px) {
+  .intro {
+    margin: 0 4%;
+  }
   nav {
     padding: 3.5% 4% 0 4%;
     width: 90%;
@@ -6,11 +9,14 @@
   h1 {
     font-size: 2.0em;
     line-height: 1.2em;
+    letter-spacing: -1px;
+    padding-top: 18px;
   }
   h2 {
     font-size: 1.2em;
     line-height: 1.4em;
-    margin-bottom: 10px;
+    margin: 12px 0 24px;
+    padding-top: 12px;
   }
   p {
     line-height: 1.3em;
@@ -31,22 +37,23 @@
     order: 1;
     margin-bottom: 5vh;
     margin-right: 0;
+    display: flex;
+    align-items: flex-end;
+    min-width: 50vw;
   }
   .card-home-image-left {
+    order: 1;
     margin-right: -10%;
   }
   .card-home-image-left img {
     margin-right: 0;
+    width: 15vw;
   }
   .card-home-image-right {
-    width: 60vw;
-    margin-left: 32px;
+    order: 2;
   }
   .card-home-image-right img {
     min-width: 110%;
-  }
-  .card-home-image {
-    width: 90vw;
   }
   .card-work {
     height: 80vh;
