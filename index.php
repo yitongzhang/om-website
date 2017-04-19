@@ -11,7 +11,7 @@
 
 <!-- top -->
 
-<div class="card">
+<div class="card intro-card">
 	<div class="intro"><h1 class="">We design and build digital tools of all shapes and sizes.</h1></div>
 </div>
 
@@ -90,11 +90,10 @@
 </div>
 
 <a name="contact"></a>
+
 <footer>
     <div class="footer-left">
-
         <?php include 'contact-form.php'; ?>
-
     </div>
 </footer>
 

@@ -11,13 +11,12 @@
   }
   nav {
     padding: 3.5% 4% 0 4%;
-    width: 90%;
+    width: 90vw;
   }
   h1 {
     font-size: 2.0em;
     line-height: 1.2em;
     letter-spacing: -1px;
-    padding-top: 18px;
   }
   h2 {
     font-size: 1.2em;
@@ -37,8 +36,14 @@
     margin-top: 0;
   }
   .card {
+    margin-bottom: 112px;
     flex-direction: column;
-    height: 50vh;
+  }
+  .card.intro-card {
+    padding-top: 150px;
+  }
+  .card-work {
+    margin-bottom: 112px;
   }
   .card-home-text {
     order: 2;
@@ -49,7 +54,7 @@
   }
   .card-home-image {
     order: 1;
-    margin-bottom: 5vh;
+    margin-bottom: 36px;
     margin-right: 0;
     display: flex;
     align-items: flex-end;
@@ -68,9 +73,6 @@
   }
   .card-home-image-right img {
     min-width: 110%;
-  }
-  .card-work {
-    height: 100%;
   }
   .card-home-image-right img {
     width: 60vw;
@@ -98,6 +100,10 @@
     border-radius: 1px;
   }
   /*footer*/
+  footer {
+    height: auto;
+    margin-bottom: 24px;
+  }
   input,
   textarea {
     width: 80vw;
@@ -121,7 +127,7 @@
     line-height: 1.2em;
   }
   nav {
-    width: 80%;
+    width: 80vw;
     padding: 1% 10% 1% 10%;
   }
   .intro {

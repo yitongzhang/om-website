@@ -4,16 +4,19 @@ var formDistance = distance - windowHeight;
 
 $(document).ready(function () {
 
-    $(window).scroll(function () {
-        if ($(window).scrollTop() > formDistance) {
-            console.log("entered!" + formDistance);
-            focusInput($("#Name"));
-        }
-        else if ($(window).scrollTop() < formDistance) {
-            console.log("exited!" + formDistance);
-            $("#Name").blur();
-        }
-    });
+    // This is messing up scrolling on mobile.
+    // TODO: Decide if necessary, or if we just disable for mobile.
+
+    //$(window).scroll(function () {
+    //    if ($(window).scrollTop() > formDistance) {
+    //        console.log("entered!" + formDistance);
+    //        focusInput($("#Name"));
+    //    }
+    //    else if ($(window).scrollTop() < formDistance) {
+    //        console.log("exited!" + formDistance);
+    //        $("#Name").blur();
+    //    }
+    //});
 
     $('.selected').on('click', function (e) {
         e.preventDefault();
