@@ -11,7 +11,7 @@
 
 <!-- top -->
 
-<div class="card">
+<div class="card intro-card">
 	<div class="intro"><h1 class="">We are a product design studio in San Francisco.</h1></div>
 </div>
 

@@ -126,16 +126,34 @@
 
   /*footer*/
   footer {
+    display: flex;
+    width: 100%;
     height: auto;
     margin-bottom: 24px;
+
+    .footer-left {
+      width: 100%;
+    }
+
+    &.contact-page-footer {
+      padding-top: 48px;
+    }
   }
 
   input, textarea {
-    width: 80vw;
+    width: 100%;
   }
 
   input:focus, textarea:focus {
-    width: 80vw;
+    width: 100%;
+  }
+
+  .values {
+    padding: 0;
+  }
+
+  .contact-form {
+    padding: 6%;
   }
 }
 
