@@ -40,11 +40,12 @@
 		<!-- <P><a href="#">Case study &#x2192;</a></p> -->
 	</div>
 	<div class="card-home-image">
-		<div class="card-home-image-left">
+        <img src="img/static/google-gmail-static.png" class="mobile-only-img">
+		<div class="card-home-image-left hide-for-mobile">
 			<video  autoplay='autoplay' loop='loop'><source src="img/home-case-gmail-phone.mp4" type="video/mp4"></video>
 			<img src="img/iPhone.png" />
 		</div>
-		<div class="card-home-image-right">
+		<div class="hide-for-mobile card-home-image-right">
 			<img src="img/home-case-gmail-tablet.png" />
 		</div>
 	</div>
@@ -61,7 +62,8 @@
 		<!-- <P><a href="#">Case study &#x2192;</a></p> -->
 	</div>
 	<div class="card-home-image">
-		<video  autoplay='autoplay' loop='loop'><source src="img/home-case-crew.mp4" type="video/mp4"></video>
+        <img src="img/static/crew-static.png" class="mobile-only-img">
+		<video class="hide-for-mobile" autoplay='autoplay' loop='loop'><source src="img/home-case-crew.mp4" type="video/mp4"></video>
 	</div>
 </div>
 
@@ -75,11 +77,12 @@
 		<!-- <P><a href="#">Case study &#x2192;</a></p> -->
 	</div>
 	<div class="card-home-image">
-		<div class="card-home-image-left">
-			<video  autoplay='autoplay' loop='loop'><source src="img/home-case-diva-phone.mp4" type="video/mp4"></video>
+        <img src="img/static/diva-static.png" class="mobile-only-img">
+		<div class="card-home-image-left hide-for-mobile">
+			<video autoplay='autoplay' loop='loop'><source src="img/home-case-diva-phone.mp4" type="video/mp4"></video>
 			<img src="img/android.png" alt="">
 		</div>
-		<div class="card-home-image-right">
+		<div class="card-home-image-right hide-for-mobile">
 			<img src="img/home-case-diva-tablet.png" alt="">
 		</div>
 
