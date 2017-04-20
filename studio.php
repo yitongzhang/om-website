@@ -36,7 +36,7 @@
 		<h3>Team</h3>
 		<p>We are generalists with varied backgrounds. Our experience spans leadership roles at large tech companies, art direction at agencies, founding startups, and freelancing everywhere in between. We believe this makes us uniquely qualified to tackle problems at any scale.</p>
 	</div>
-	<div class="card-studio-col-2">
+	<div class="card-studio-col-2 first">
 		<div class="divider"></div>
 		<h3>Services</h3>
 		<p>Product Design<br />

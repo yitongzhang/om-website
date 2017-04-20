@@ -104,7 +104,7 @@ input, textarea {
   font-size: 16px;
   font-family: @font-default;
   letter-spacing: 1px;
-  box-sizing:border-box;
+  box-sizing: border-box;
 }
 
 textarea {
@@ -186,9 +186,20 @@ button:focus {
 }
 
 /*studio*/
+
+@margHalf: 12px;
+
 .card-studio-col {
-  margin-left: 10%;
+
   width: 50%;
+
+  &:first-child {
+    padding-right: @margHalf;
+  }
+
+  &:last-child {
+    padding-left: @margHalf;
+  }
 
   @media @for-phone-only {
     margin-left: 4%;
@@ -198,10 +209,19 @@ button:focus {
 }
 
 .card-studio-col-2 {
-  margin-left: 10%;
+
   width: 25%;
 
+  &.first {
+    padding-left: @margHalf;
+  }
+
   @media @for-phone-only {
+
+    &.first {
+      padding-left: 0;
+    }
+
     margin-left: 4%;
     margin-right: 4%;
     width: 100%;
@@ -209,25 +229,11 @@ button:focus {
 }
 
 .card-studio-col:last-child {
-  margin-left: 0;
-  margin-right: 10%;
+
+  margin: 0;
 
   @media @for-phone-only {
-    margin-left: 4%;
-    margin-right: 4%;
-    width: 100%;
-  }
-
-}
-
-.card-studio-col-2:last-child {
-
-  margin-left: 0;
-  margin-right: 10%;
-
-  @media @for-phone-only {
-    margin-left: 4%;
-    margin-right: 4%;
+    margin: 0 4%;
     width: 100%;
   }
 }
@@ -300,7 +306,7 @@ footer {
 .values {
 
   display: flex;
-  padding: 32px 0 64px 0;
+  padding: 32px 10% 64px 10%;
 
   @media @for-phone-only {
     flex-direction: column;
