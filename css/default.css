@@ -188,6 +188,7 @@ button:focus {
 }
 @media (max-width: 599px) {
   .card-studio-col {
+    padding: 0 !important;
     margin-left: 4%;
     margin-right: 4%;
     width: 100%;
@@ -201,12 +202,10 @@ button:focus {
 }
 @media (max-width: 599px) {
   .card-studio-col-2 {
+    padding: 0 !important;
     margin-left: 4%;
     margin-right: 4%;
     width: 100%;
-  }
-  .card-studio-col-2.first {
-    padding-left: 0;
   }
 }
 .card-studio-col:last-child {
