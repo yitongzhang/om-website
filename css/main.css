@@ -153,6 +153,7 @@ button:focus {
 .facebook img {
   width: 69vw;
 }
+
 .gmail video {
   position: absolute;
   width: 13.9vw;
@@ -568,7 +569,7 @@ a img {
     width: 14.2vw;
     margin-top: 2.4vw;
     margin-left: .42vw;
-    border-radius: 1px;
+    border-radius: 4px;
   }
   .crew video {
     width: 70vw;
@@ -578,7 +579,7 @@ a img {
     width: 13.9vw;
     margin-top: 2.9%;
     margin-left: 0.56vw;
-    border-radius: 1px;
+    border-radius: 4px;
   }
   /*footer*/
   input,
@@ -662,10 +663,10 @@ a img {
   }
   .gmail video {
     position: absolute;
-    width: 14.2vw;
-    margin-top: 2.4vw;
-    margin-left: .42vw;
-    border-radius: 1px;
+    width: 14vw;
+    margin-top: 2.73vw;
+    margin-left: .5vw;
+    border-radius: 4px;
   }
   .crew video {
     width: 70vw;
@@ -673,9 +674,9 @@ a img {
   .diva video {
     position: absolute;
     width: 13.9vw;
-    margin-top: 2.9%;
-    margin-left: 0.56vw;
-    border-radius: 1px;
+    margin-top: 2.8%;
+    margin-left: 0.55vw;
+    border-radius: 4px;
   }
   /*footer*/
   input,

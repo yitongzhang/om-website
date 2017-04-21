@@ -1,7 +1,6 @@
 <div class="submit-success">
-    <a href class="submit-success-dismiss">Dismiss</a>
-
-    <div class="submit-success-msg">Thank You For Your Submission!!!11</div>
+    <div class="submit-success-msg">Thanks for reaching out! We'll get back to you soon.</div>
+    <a href class="submit-success-dismiss">Back to form</a>
 </div>
 
 <form id="contactForm" class="contact-form">
