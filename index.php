@@ -22,7 +22,7 @@
 	<div class="card-home-text">
 		<div class="divider"></div>
 		<h2>We worked with Facebook to evolve their tools for advertisers.</h2>
-		<p>Over the years, we've worked with Facebook to both create new products as well as improve existing products. We can't say more because this work is confidential.</p>
+		<p>Over the years, we've helped Facebook create new products and improve existing products. We can't say more because this work is confidential.</p>
 		<!-- <P><a href="#">Case study &#x2192;</a></p> -->
 	</div>
 	<div class="card-home-image">
@@ -36,7 +36,7 @@
 	<div class="card-home-text">
 		<div class="divider"></div>
 		<h2>We helped Google design Gmail for iPhone and iPad.</h2>
-		<p>Gmail needed an update on iOS in 2013, so we worked with Google to add new features and modernize the existing interface.</p>
+		<p>Gmail needed an update on iOS, so we worked with Google to add new features and modernize the existing interface.</p>
 		<!-- <P><a href="#">Case study &#x2192;</a></p> -->
 	</div>
 	<div class="card-home-image">
@@ -58,7 +58,7 @@
 	<div class="card-home-text">
 		<div class="divider"></div>
 		<h2>We helped Crew make team communication easy and fun.</h2>
-		<p>Crew is a messaging service for deskless workers. We worked with the founders to design the product from the ground up on iOS, Android, and desktop.</p>
+		<p>Crew is a messaging service for deskless workers. We designed the product from the ground up on iOS, Android, and desktop.</p>
 		<!-- <P><a href="#">Case study &#x2192;</a></p> -->
 	</div>
 	<div class="card-home-image">
@@ -72,8 +72,8 @@
 <div class="card diva card-work">
 	<div class="card-home-text">
 		<div class="divider"></div>
-		<h2>We reimagined retail inventory tracking with Google.</h2>
-		<p>This is the text that tells you about the project. Focus on high level things like the industry, core challenge, etc. Make it short and sweet.</p>
+		<h2>We reimagined retail inventory management with Google.</h2>
+		<p>We designed and built a suite of tools that enables retailers to track inventory in real time. </p>
 		<!-- <P><a href="#">Case study &#x2192;</a></p> -->
 	</div>
 	<div class="card-home-image">
