@@ -24,6 +24,7 @@ body {
   line-height: 28px;
   color: #333;
   margin: 0;
+  background-color: #F7F7F7;
 }
 h1,
 h2,
@@ -64,7 +65,7 @@ nav {
   overflow: hidden;
   font-weight: 600;
   z-index: 1000;
-  background-color: white;
+  background-color: #F7F7F7;
 }
 .logo img {
   height: 32px;
@@ -163,7 +164,9 @@ button:focus {
 }
 .crew video {
   width: 70vw;
+  background-color: red;
 }
+
 .diva video {
   position: absolute;
   width: 13.9vw;
@@ -693,7 +696,7 @@ a img {
     font-size: 6.8em;
   }
   h2 {
-    font-size: 2.8em;
+    font-size: 2.7em;
     line-height: 1.2em;
   }
   p {
@@ -738,3 +741,10 @@ a img {
 .submit-success .submit-success-msg {
   margin: 12px 0;
 }
+
+@media only screen and (min-width: 1800px) {
+
+
+}
+
+
