@@ -4,8 +4,8 @@ $debug = false;
 
 // Edit these as needed.
 
-$to = 'rob@youngand.co';
-$from = 'yitong@youngand.co';
+$to = 'rob@omstudio.co';
+$from = 'hello@omstudio.co';
 $debugTo = 'jason@youngand.co';
 
 // End editables.

@@ -17,24 +17,24 @@
 
 <!-- columns -->
 
-<div class="values" style="background-color:#fff">
+<div class="values">
 	<div class="card-studio-col">
 		<div class="divider"></div>
 		<h3>Philosophy</h3>
-		<p>Our goal is to build tools that empower people to do bigger and better things. We believe in focus our efforts on products that add value to the world.  </p>
+		<p>We believe products should strike a balance between utility, simplicity, and beauty. Our goal is to build tools that acheive this balance, while empowering people to do bigger and better things.</p>
 	</div>
 	<div class="card-studio-col">
 		<div class="divider"></div>
 		<h3>Process</h3>
-		<p>Our process is highly collaborative and iterative. We blend research, user experience, interaction design, visual design, prototyping, coding, and whatever else it takes to make something great. </p>
+		<p>We believe the best products are the result of strong collaboration and rapid iteration. To that end, we blend research, user experience design, interaction design, visual design, prototyping, and coding. </p>
 	</div>
 </div>
 
-<div class="values" style="background-color:#fff;">
+<div class="values">
 	<div class="card-studio-col">
 		<div class="divider"></div>
 		<h3>Team</h3>
-		<p>We are generalists with varied backgrounds. Our experience spans leadership roles at large tech companies, art direction at agencies, founding startups, and freelancing everywhere in between. We believe this makes us uniquely qualified to tackle problems at any scale.</p>
+		<p>We are generalists with varied backgrounds. Our experience spans leadership roles at large tech companies, art direction at agencies, and founding startups. We believe this makes us uniquely qualified to tackle problems at any scale.</p>
 	</div>
 	<div class="card-studio-col-2 first">
 		<div class="divider"></div>

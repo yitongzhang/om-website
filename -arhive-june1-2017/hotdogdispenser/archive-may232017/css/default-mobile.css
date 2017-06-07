@@ -1,0 +1,134 @@
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+/* Styles */
+} 
+
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1024px) {
+/* Styles */
+
+	h1 {
+		font-size:3.2em; 
+		color: red;
+		/*border:1px solid red;*/
+	} 
+
+
+	h2 {
+		font-size:1.8em; 
+		line-height: 1.2em;
+	} 
+
+	.card {
+		display:flex;
+		flex-direction:column;
+		align-items:left;
+		height:90vh;
+		
+	}
+
+	.card-home-text {
+		margin:0 10%;
+		max-width:none;
+	}
+
+	.card-home-image {
+		margin:0 10%;
+	}
+
+	.card-home-image-right img{
+		margin:0 10%;
+	}	
+
+	.facebook img{
+		width:80vw;
+	}
+
+
+
+	.gmail video{
+		position: absolute;
+	    width: 18.6vw;
+	    margin-top: 3.7vw;
+	    margin-left: .7vw;
+	    border-radius: 4px;
+
+	}
+	.crew video{
+		width: 80vw;
+	}
+	.diva video{
+		position: absolute;
+	    width: 18.3vw;
+	    margin-top: 3.9vw;
+	    margin-left: 0.93vw;
+	    border-radius: 3px;
+	}
+
+  }
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+}
+
+	h1 {
+		font-size:4.2em;
+		/*border:1px solid red; */
+	} 
+
+
+	h2 {
+		font-size:1.8em; 
+		line-height: 1.2em;
+	} 
+
+	.card {
+		display:flex;
+		flex-direction:column;
+		align-items:left;
+		height:90vh;
+		
+	}
+
+	.card-home-text {
+		margin:0 10%;
+		max-width:none;
+	}
+
+	.card-home-image {
+		margin:0 10%;
+	}
+
+	.card-home-image-right img{
+		/*margin:0 10%;*/
+	}	
+
+	.facebook img{
+		width:80vw;
+	}
+
+
+
+	.gmail video{
+		position: absolute;
+	    width: 18.6vw;
+	    margin-top: 3.7vw;
+	    margin-left: .7vw;
+	    border-radius: 4px;
+
+	}
+	.crew video{
+		width: 80vw;
+	}
+	.diva video{
+		position: absolute;
+	    width: 18.3vw;
+	    margin-top: 3.9vw;
+	    margin-left: 0.93vw;
+	    border-radius: 3px;
+	}
+
+
+  }*/

@@ -26,7 +26,7 @@
 		<!-- <P><a href="#">Case study &#x2192;</a></p> -->
 	</div>
 	<div class="card-home-image">
-		<img src="img/home-case-fb.png">
+		<img class="bgDevice white" src="img/home-case-fb.png">
 	</div>
 </div>
 
@@ -43,10 +43,10 @@
         <img src="img/static/google-gmail-static.png" class="mobile-only-img">
 		<div class="card-home-image-left hide-for-mobile">
 			<video  autoplay='autoplay' loop='loop'><source src="img/home-case-gmail-phone.mp4" type="video/mp4"></video>
-			<img src="img/iPhone.png" />
+			<img src="img/iPhone.png" class="bgDevice white" />
 		</div>
 		<div class="hide-for-mobile card-home-image-right">
-			<img src="img/home-case-gmail-tablet.png" />
+			<img class="bgDevice white" src="img/home-case-gmail-tablet.png" />
 		</div>
 	</div>
 </div>
