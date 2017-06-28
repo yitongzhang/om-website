@@ -4,7 +4,6 @@
 </div>
 
 <form id="contactForm" class="contact-form">
-
     <h2>How can we help you?</h2>
 
     <input type="text" name="Name" id="Name" placeholder="Your name" class="form-control">
@@ -18,7 +17,7 @@
     <div class="form-group submit">
         <input type="hidden" name="submit" value="1">
         <button type="submit" class="sbtn" name="submit" value="1" data-content="Submit" value="Send Form">
-            <span data-content="Send">Send</span>
+            <span data-content="Send">Submit</span>
         </button>
     </div>
 

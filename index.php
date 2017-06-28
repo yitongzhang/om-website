@@ -5,8 +5,6 @@
 
 <body>
 
-<div class="top-bar"></div>
-
 <?php include 'nav.php'; ?>
 
 <!-- top -->
@@ -91,7 +89,7 @@
 
 <a name="contact"></a>
 
-<footer>
+<footer id="footer">
     <div class="footer-left">
         <?php include 'contact-form.php'; ?>
     </div>

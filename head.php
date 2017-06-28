@@ -6,7 +6,7 @@
     <meta name="keywords"  content="O/M, product design, user experience design, user interface design, ui design, design, mobile design, software, software development, website design, app design" />
     <meta name="Resource-type" content="Document" />
     <link rel="stylesheet" type="text/css" href="css/reset.css" />
-    <link rel="stylesheet" type="text/css" href="css/MyFontsWebfontsKit.css" />
     <link rel="stylesheet" type="text/css" href="css/main.css" />
-    <link rel="stylesheet" type="text/css" href="css/type.css" />
+    <script src="https://use.typekit.net/roz8ldu.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
 </head>

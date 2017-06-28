@@ -1,25 +1,5 @@
-@font-face {
-  font-family: Source;
-  font-weight: 400;
-  src: url(../fonts/SourceSerifProregular.ttf) format("truetype");
-}
-@font-face {
-  font-family: Source;
-  font-weight: 700;
-  src: url(../fonts/SourceSerifPro700.ttf) format("truetype");
-}
-@font-face {
-  font-family: Gilroy;
-  font-weight: 400;
-  src: url(../fonts/Gilroy-Regular.otf) format("opentype");
-}
-@font-face {
-  font-family: Gilroy;
-  font-weight: 700;
-  src: url(../fonts/Gilroy-Bold.otf) format("opentype");
-}
 body {
-  font-family: 'Gilroy', serif;
+  font-family: 'Aktiv Grotesk', sans-serif;
   font-size: 18px;
   line-height: 28px;
   color: #333;
@@ -28,7 +8,7 @@ body {
 h1,
 h2,
 h3 {
-  font-family: 'Gilroy', serif;
+  font-family: 'Aktiv Grotesk', sans-serif;
   font-weight: 700;
 }
 h3 {
@@ -39,7 +19,7 @@ strong {
 }
 p {
   margin: 24px 0;
-  font-family: 'Source', serif;
+  font-family: 'ff-meta-serif-web-pro', serif;
   font-style: normal;
 }
 .title-top {
@@ -106,7 +86,7 @@ textarea {
   width: 400px;
   border: 1px solid #eee;
   font-size: 16px;
-  font-family: 'Gilroy', serif;
+  font-family: 'Aktiv Grotesk', sans-serif;
   letter-spacing: 1px;
   box-sizing: border-box;
 }
@@ -316,14 +296,14 @@ footer {
   margin: 10%;
 }
 .project-row {
-  font-family: 'Source', serif;
+  font-family: 'ff-meta-serif-web-pro', serif;
   border-top: 1px solid #ddd;
 }
 .project-item {
   padding: 16px 0 16px 0;
 }
 .project-meta {
-  font-family: 'Gilroy', serif;
+  font-family: 'Aktiv Grotesk', sans-serif;
   text-transform: uppercase;
   font-size: 14px;
 }
@@ -337,7 +317,7 @@ table {
   text-align: left;
 }
 table h3 {
-  font-family: 'Gilroy', serif;
+  font-family: 'Aktiv Grotesk', sans-serif;
   font-weight: 600;
   padding-top: 0;
   text-transform: none;

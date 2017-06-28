@@ -9,7 +9,7 @@
 
 <?php include 'nav.php'; ?>
 
-<footer class="contact-page-footer">
+<footer class="contact-page-footer" id="footer">
 <div class="footer-left">
 
     <?php include 'contact-form.php'; ?>

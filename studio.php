@@ -5,13 +5,11 @@
 
 <body>
 
-<div class="top-bar"></div>
-
 <?php include 'nav.php'; ?>
 
 <!-- top -->
 
-<div class="card intro-card">
+<div class="card intro-card jobs-card">
 	<div class="intro"><h1 class="">We are a product design studio in San Francisco.</h1></div>
 </div>
 
@@ -20,12 +18,12 @@
 <div class="values">
 	<div class="card-studio-col">
 		<div class="divider"></div>
-		<h3>Philosophy</h3>
+		<h2>Philosophy</h2>
 		<p>We believe products should strike a balance between utility, simplicity, and beauty. Our goal is to build tools that acheive this balance, while empowering people to do bigger and better things.</p>
 	</div>
 	<div class="card-studio-col">
 		<div class="divider"></div>
-		<h3>Process</h3>
+		<h2>Process</h2>
 		<p>We believe the best products are the result of strong collaboration and rapid iteration. To that end, we blend research, user experience design, interaction design, visual design, prototyping, and coding. </p>
 	</div>
 </div>
@@ -33,12 +31,12 @@
 <div class="values">
 	<div class="card-studio-col">
 		<div class="divider"></div>
-		<h3>Team</h3>
+		<h2>Team</h2>
 		<p>We are generalists with varied backgrounds. Our experience spans leadership roles at large tech companies, art direction at agencies, and founding startups. We believe this makes us uniquely qualified to tackle problems at any scale.</p>
 	</div>
 	<div class="card-studio-col-2 first">
 		<div class="divider"></div>
-		<h3>Services</h3>
+		<h2>Services</h2>
 		<p>Product Design<br />
 			UX Design<br />
 			Visual Design</br/>
@@ -47,11 +45,11 @@
 	</div>
 	<div class="card-studio-col-2">
 		<div class="divider"></div>
-		<h3>Location</h3>
+		<h2>Location</h2>
 		<p>O/M<br />3324 24th Street<br />
 			San Francisco, CA 94103<br />
-			hello@omstudio.co</br/>
-			<a href="https://dribbble.com/omstudio" target="_blank"><img src="img/dribbble-icon.svg" style="width:12px;padding-top:4px;" /> omstudio</a>
+			<a href="mailto:hello@omstudio.co">hello@omstudio.co</a></br/>
+			<a href="https://dribbble.com/omstudio" target="_blank">dribbble.com/omstudio <img src="img/dribbble-icon.svg"/></a>
 
 		</p>
 	</div>
@@ -226,7 +224,7 @@
 
 
 <a name="contact"></a>
-<footer name="contact">
+<footer name="contact" id="footer">
 <div class="footer-left">
     <?php include 'contact-form.php'; ?>
 </div>
