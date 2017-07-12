@@ -32,8 +32,15 @@
 	<div class="howDesign">
 		<div class="divider"></div>
 		<h2>How we design</h2>
-		<p>Our goal is to help you do your best work. To this end, each designer controls the full cycle of their design, starting from basic information architecture and userflows and working all the way down to pixel tuning. Some even manage client relationships.</p>
-		<p>If you come from a larger company, this extent of ownership might seem odd — maybe a bit scary. Not at O/M. Our team is tight-knit and we always find a way to have each other’s back, whether during design reviews, open crit hours, or Friday show and tells.</p>
+		<div class="jobs-2col-wrap">
+			<div class="jobs-2col">
+				<p>Our goal is to help you do your best work. To this end, each designer controls the full cycle of their design, starting from basic information architecture and userflows and working all the way down to pixel tuning. Some even manage client relationships.</p>
+			</div>
+
+			<div class="jobs-2col">
+				<p>If you come from a larger company, this extent of ownership might seem odd — maybe a bit scary. Not at O/M. Our team is tight-knit and we always find a way to have each other’s back, whether during design reviews, open crit hours, or Friday show and tells.</p>
+			</div>
+		</div>
 	</div>
 </div>
 
@@ -41,7 +48,16 @@
 	<div class="lifeHere">
 		<div class="divider"></div>
 		<h2>Life at the studio</h2>
-		<p>Being in the Mission, food outings are a stable of the studio. In between bites of tacos, we also go on field trips to print shops, design meetups, workshops, and more! During the rare down times, we work on a fresh produce <a href="http://howfresh.co/" target="_blank">catalogue</a> for Northern California. Yes, it is possible that we like food too much. </p>
+		<div class="jobs-2col-wrap">
+
+			<div class="jobs-2col">
+				<p>Being in the Mission, food outings are a stable of the studio. In between bites of tacos, we also go on field trips to print shops, design meetups, workshops, and more!</p>
+			</div>
+
+			<div class="jobs-2col">
+				<p>During the rare down times, we work on a fresh produce <a href="http://howfresh.co/" target="_blank">catalogue</a> for Northern California. Yes, it is possible that we like food too much. </p>
+			</div>
+		</div>
 	</div>
 </div>
 
@@ -49,7 +65,7 @@
 	<div class="position">
 		<div class="divider"></div>
 		<h2>Product Designer</h2>
-		<p>Our goal is to help you do your best work. To this end, each designer controls the full cycle of their design, starting from basic information architecture and userflows and working all the way down to pixel tuning. Some even manage client relationships.</p>
+		<p>We're looking for good product designers of all levels of experience. Strong applicants are generalists with a broad range of visuals and UX design skills and great communication abilities.</p>
 		<div class="jobs-2col-wrap">
 		<div class="jobs-2col">
 			<div class="divider"></div>

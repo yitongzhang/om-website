@@ -11,7 +11,7 @@
     <input type="text" name="Company" id="Company" placeholder="Company" class="form-control">
     <input type="hidden" name="_next" value="thanks.html">
 
-            <textarea maxlength="150" name="Description" id="Description" placeholder="Tell us about your project"
+            <textarea maxlength="500" name="Description" id="Description" placeholder="Tell us about your project"
                       cols="30" rows="1" class="form-control"></textarea>
 
     <div class="form-group submit">

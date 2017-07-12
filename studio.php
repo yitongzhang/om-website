@@ -46,11 +46,11 @@
 	<div class="card-studio-col-2">
 		<div class="divider"></div>
 		<h2>Location</h2>
-		<p>O/M<br />3324 24th Street<br />
+		<p>O/M<br />3344 24th Street<br />
 			San Francisco, CA 94103<br />
 			<a href="mailto:hello@omstudio.co">hello@omstudio.co</a></br/>
-			<a href="https://dribbble.com/omstudio" target="_blank">dribbble.com/omstudio <img src="img/dribbble-icon.svg"/></a>
-
+			<a href="https://dribbble.com/omstudio" target="_blank">dribbble.com/omstudio</a>
+			<!-- <img src="img/dribbble-icon.svg"/> -->
 		</p>
 	</div>
 </div>
