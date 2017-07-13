@@ -88,6 +88,10 @@ nav {
   -moz-transition: height 0.2s;
 }
 
+nav a{
+  border-bottom: 2px solid rgba(57,103,251,0);
+  padding-bottom: 12px;
+}
 
 nav .logo a:hover{
   border-bottom: 0px solid blue;
