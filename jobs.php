@@ -51,7 +51,7 @@
 		<div class="jobs-2col-wrap">
 
 			<div class="jobs-2col">
-				<p>Being in the Mission, food outings are a stable of the studio. In between bites of tacos, we also go on field trips to print shops, design meetups, workshops, and more!</p>
+				<p>Being in the Mission, food outings are a staple of the studio. In between bites of tacos, we also go on field trips to print shops, design meetups, workshops, and more!</p>
 			</div>
 
 			<div class="jobs-2col">

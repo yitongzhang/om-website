@@ -29,8 +29,6 @@ function focusInput(elem) {
     window.scrollTo(x, y);
 }
 
-
-
 $(window).scroll(function(){
     if ($(window).scrollTop() >= 4) {
         $('nav').addClass('scrollingNav');
